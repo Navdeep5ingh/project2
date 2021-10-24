@@ -1,0 +1,106 @@
+.heading1 {
+	font-family: 'Roboto', sans-serif;
+	text-align: center;
+	margin-top: 50px;
+	margin-bottom: 25px;
+	font-weight: 500;
+	font-size: 35px;
+}
+.backbutton{
+	font-family: 'Roboto', sans-serif;
+	margin-left: 600px;
+}
+.button {
+	border-width: 0px 0px 0px 0px;
+	border-color: white;
+	border-radius: 5px;
+	background-color: white;
+	cursor: pointer;
+	margin-left: -30px; 
+}
+.button:hover {
+	background-color: orangered;
+}
+.arrow {
+	font-family: 'Roboto', sans-serif;
+	display: inline;
+	background-color: #E74C3C;
+	padding: 2.5px 5px 2.5px 5px;
+	border-radius: 50%;
+	display: inline;
+	font-size: 20px;
+	color: white;
+	font-weight: 100;
+}
+.back {
+	display: inline;
+	font-size: 24px;
+	font-weight: 100;
+	color: grey;
+	margin-top: 20px;
+}
+}
+.paris:hover {
+	cursor: pointer;
+	transform: scale(1.1);
+}
+.paris {
+	font-family: 'Roboto', sans-serif;
+	border: 1px outset #E74C3C;
+	box-shadow: 10px 10px 5px -2px lightgrey;
+	border-radius: 10px;
+	margin-left: 470px;
+    margin-right: 470px;
+    margin-top: 50px;
+    padding-bottom: 20px;
+	font-size: 24px;
+	font-weight: 100;
+}
+.heading2 {
+	font-family: 'Roboto', sans-serif;
+	text-align: center;
+	margin-bottom: 5px;
+	margin-left: 45px;
+	margin-right: 45px;
+	color: #E74C3C;
+}
+.underline {
+	border-bottom: 2px solid grey;
+	margin-left: 95px;
+	margin-top: 10px;
+}
+.completedtask {
+	color: #E74C3C;
+	text-align: right;
+	margin-right: 80px;
+	margin-top: 40px;
+	text-decoration: line-through solid #E74C3C 4px;
+	font-weight: 300;
+	font-size: 21px;
+}
+.checkbox {
+	margin-left: 60px;
+	width: 18px;
+	height: 18px;
+}
+.checkbox:hover {
+	cursor: pointer;
+}
+.pendingtask {
+font-size: 20px;
+}
+.addnewitem {
+	border-width: 0px 0px 0px 0px;
+	border-color: white;
+	background-color: #E74C3C;
+	cursor: pointer;
+	margin-left: 260px;
+    margin-top: 100px;
+	font-family: 'Roboto', sans-serif;
+	padding: 5px 10px 2.5px 10px;
+	border-radius: 50%;
+	display: inline;
+	font-size: 20px;
+	color: white;
+	font-weight: 100; 
+}
