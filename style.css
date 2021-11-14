@@ -1,0 +1,300 @@
+.header {
+	margin-left: 280px;
+	margin-top: 130px;
+	margin-bottom: 40px;
+	letter-spacing: 1px;
+}
+.tasks {
+	font-family: roboto ;
+	display: inline;
+	font-size: 70px;
+	font-weight: 700;
+}
+.lists {
+	font-family: 'Roboto', sans-serif;
+	font-weight: lighter;
+	display: inline;
+	font-size: 70px;
+	color: grey;
+}
+.button {
+	border-width: 1px 0px 0px 0px;
+	border-color: white;
+	border-radius: 5px;
+	background-color: white;
+	margin-left: 350px;
+	cursor: pointer;
+}
+.button:hover {
+	background-color: orangered;
+}
+
+.plus {
+	background-color: #E74C3C;
+	margin: auto;
+	padding: 0px 10px 0px 10px;
+	border-radius: 50%;
+	display: inline;
+	font-size: 30px;
+	color: white;
+	font-weight: 300;
+}
+.addlist {
+	display: inline;
+	font-size: 32px;
+	font-weight: 100;
+	letter-spacing: 2px;
+	color: grey;
+	margin-top: 20px;
+}
+.listdiv {
+	flex-wrap: wrap;
+	font-family: 'Roboto', sans-serif;
+	box-sizing: border-box;
+	display: flex;
+	justify-content: space-around;
+	margin-left: 220px;
+	margin-right: 200px;
+}
+.paris {
+	border: 1px outset #E74C3C;
+	box-shadow: 10px 10px 5px -2px lightgrey;
+	border-radius: 10px;
+	padding-bottom: 150px;
+	font-size: 24px;
+	font-weight: 100;
+}
+.paris:hover {
+	cursor: pointer;
+	transform: scale(1.1);
+}
+.paris:active {
+	background-color: grey;
+}
+.heading {
+	text-align: center;
+	margin-bottom: 5px;
+	margin-left: 45px;
+	margin-right: 45px;
+	color: #E74C3C;
+
+}
+.underline {
+	border-bottom: 1px solid grey;
+	margin-left: 48px;
+	margin-top: 10px;
+}
+.completedtask {
+	color: #E74C3C;
+	text-align: right;
+	margin-right: 20px;
+	margin-top: 40px;
+	text-decoration: line-through solid #E74C3C 4px;
+	font-weight: 300;
+	font-size: 21px;
+}
+.checkbox {
+	margin-left: 13px;
+	width: 18px;
+	height: 18px;
+}
+.checkbox:hover {
+	cursor: pointer;
+}
+.pendingtask {
+	font-size: 20px;
+	font-weight: 300;
+	color:black;
+	}
+.mylist {
+	border: 1px outset #E74C3C;
+	box-shadow: 10px 10px 5px -2px lightgrey;
+	border-radius: 10px;
+	padding-bottom: 150px;
+	font-size: 24px;
+	font-weight: 100;
+}
+.mylist:hover {
+	cursor: pointer;
+	transform: scale(1.1);
+}
+.mylist:active {
+	background-color: grey;
+}
+.mylist2 {
+	border: 1px outset #E74C3C;
+	box-shadow: 10px 10px 5px -2px lightgrey;
+	border-radius: 10px;
+	padding-bottom: 150px;
+	font-size: 24px;
+	font-weight: 100;
+}
+.mylist2:hover {
+	cursor: pointer;
+	transform: scale(1.1);
+}
+.mylist2:active {
+	background-color: grey;
+}
+
+
+/* css for index2 */
+
+
+.addnewlist {
+	box-sizing: border-box;
+	border-width: 100px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin: 100px 450px 0px 450px;
+    border-radius: 10px;
+    border: 1px outset #E74C3C;
+	box-shadow: 10px 10px 5px -2px lightgrey;
+}
+.newlist {
+	font-family: 'Roboto', sans-serif;
+	text-align: center;
+	color: #E74C3C;
+	font-size: 22px;
+}
+.text {
+	width: 100%;
+	padding: 10px 50px;
+	border-width: 100%;
+	margin: auto;
+    border: 1px solid #E74C3C;
+    border-radius: 4px;
+    box-sizing: border-box;
+    box-shadow: 5px 5px 5px -2px lightgrey;
+}
+.button2 {
+	margin: 20px 0px 20px 165px;
+	padding: 5px 5px 5px 5px;
+	background-color: #E74C3C;
+	border-radius: 15px;
+	border: 1px solid #E74C3C;
+}
+.button2:hover {
+	cursor: pointer;
+	background-color: orangered;
+}
+.add {
+	color: white;
+	padding-left: 20px;
+	padding-right: 20px;
+	font-size: 16px;
+}
+
+
+/* css for index3 */
+
+.heading1 {
+	font-family: 'Roboto', sans-serif;
+	text-align: center;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	font-weight: 900;
+	font-size: 61px;
+}
+.backbutton{
+	font-family: 'Roboto', sans-serif;
+	margin-left: 600px;
+}
+.button3 {
+	border-width: 0px 0px 0px 0px;
+	border-color: white;
+	border-radius: 5px;
+	background-color: white;
+	cursor: pointer;
+	margin-left: 45px;
+}
+.button3:hover {
+	background-color: orangered;
+}
+.arrow {
+	font-family: 'Roboto', sans-serif;
+	display: inline;
+	background-color: #E74C3C;
+	padding: 1px 5px 1px 5px;
+	border-radius: 50%;
+	font-size: 30px;
+	color: white;
+	font-weight: 900;
+	margin-right: 15px;
+}
+.back {
+	display: inline;
+	font-size: 32px;
+	font-weight: 300;
+	color: grey;
+	margin-top: 20px;
+	letter-spacing: 1.5px;
+}
+.paris2 {
+	width: 450px;
+	font-family: 'Roboto', sans-serif;
+	border: 1px outset #E74C3C;
+	box-shadow: 10px 10px 5px -2px lightgrey;
+	border-radius: 10px;
+	margin-left: 480px;
+    margin-right: 470px;
+    margin-top: 50px;
+    padding-bottom: 30px;
+	padding-top: 20px;
+	font-size: 24px;
+	font-weight: 100;
+}
+.paris2:hover {
+	cursor: pointer;
+	transform: scale(1.1);
+}
+.heading2 {
+	font-family: 'Roboto', sans-serif;
+	text-align: center;
+	font-weight: 400;
+	font-size: 32px;
+	margin-bottom: 5px;
+	color: #E74C3C;
+}
+.underline2 {
+	border-bottom: 1px solid grey;
+	margin-left: 150px;
+	margin-top: 10px;
+}
+.completedtask2 {
+	color: #E74C3C;
+	text-align: right;
+	margin-right: 130px;
+	margin-top: 40px;
+	text-decoration: line-through solid #E74C3C 4px;
+	font-weight: 400;
+	font-size: 25px;
+}
+.checkbox2 {
+	margin-left: 130px;
+	width: 18px;
+	height: 18px;
+}
+.checkbox2:hover {
+	cursor: pointer;
+}
+.pendingtask2 {
+font-size: 22px;
+font-weight: 300;
+}
+.addnewitem {
+	border-width: 0px 0px 0px 0px;
+	border-color: white;
+	background-color: #E74C3C;
+	cursor: pointer;
+	margin-right: 15px;
+	margin-left: 390px;
+    margin-top: 100px;
+	font-family: 'Roboto', sans-serif;
+	padding: 3px 12px 3px 12px;
+	border-radius: 50%;
+	display: inline;
+	font-size: 30px;
+	color: white;
+	font-weight: 300; 
+}
